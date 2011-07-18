@@ -7,3 +7,6 @@ end
 class ActionController::IntegrationTest
   include HolyGrail::Extensions
 end
+class RSpec::Core::ExampleGroup
+  include HolyGrail::Extensions
+end
